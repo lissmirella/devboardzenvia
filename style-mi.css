@@ -1,0 +1,41 @@
+/* ----------Mirella Bagdadi---------- */
+
+#mirella-bagdadi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, #9878BD, #350946);
+    border: none;
+    border-radius: 0px 24px;
+    text-align: center;
+    font-family: 'Inter', sans serif; 
+  }
+  
+  #mirella-bagdadi .mirella-bagdadi-foto {
+    width: 20%;
+    margin-top: 8px;
+  }
+  
+  #mirella-bagdadi .mirella-bagdadi-conteudo {
+    color: #FFFAFA;
+    font-size: 17px;
+    line-height: 2;
+  }
+  
+  #mirella-bagdadi .mirella-bagdadi-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    transition: 0.7s transform;
+  }
+  
+  .mirella-bagdadi-contato img {
+    width: 24px;
+    margin: 10px;
+  }
+  
+  #mirella-bagdadi .mirella-bagdadi-icone:hover {
+    transition: 0.7s;
+    transform: scale(1.3);
+  }
+  
